@@ -6,7 +6,7 @@
 
 import re
 
-fhandle = open("dataset/regex_sum_1543883.txt", "r")
+fhandle = open("dataset/regex.txt", "r")
 total = 0
 for line in fhandle:
     line = line.rstrip()
@@ -16,5 +16,5 @@ for line in fhandle:
             total = total + int(num)
      
 print(total)    
-    
+
 
